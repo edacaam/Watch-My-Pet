@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="280dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="3dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/logo" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="36dp"
+            android:layout_height="74dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnMainPage"
+            android:layout_width="141dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:text="Ana Sayfa"
+            android:textColor="#FF7F00"
+            android:textColorHint="#E86868"
+            app:icon="@drawable/home"
+            app:iconSize="32dp"
+            app:iconTint="#FF7F00" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTalep"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Talep Oluştur"
+        android:textAlignment="center"
+        android:textColor="#FF7F00"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginTop="25dp"
+        android:keepScreenOn="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="231dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAddress"
+                android:layout_width="210dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:text="Nerede?"
+                android:textColor="#474646"
+                android:textSize="16dp"
+                app:icon="@drawable/map"
+                app:iconSize="18dp"
+                app:iconTint="#FF5722" />
+
+            <Spinner
+                android:id="@+id/spAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPet"
+                android:layout_width="210dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:text="Köpek"
+                android:textColor="#474646"
+                android:textSize="16dp"
+                app:icon="@drawable/pawprint"
+                app:iconSize="18dp"
+                app:iconTint="#FF5722" />
+
+            <Spinner
+                android:id="@+id/spPet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStartDate"
+            android:layout_width="210dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:onClick="selectStartDate"
+            android:text="Başlangıç"
+            android:textColor="#474646"
+            android:textSize="16dp"
+            app:icon="@drawable/calendar"
+            app:iconSize="18dp"
+            app:iconTint="#FF5722"
+            app:layout_constraintBottom_toTopOf="@+id/btnHostBul" />
+
+        <Button
+            android:id="@+id/btnEndDate"
+            android:layout_width="210dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="selectEndDate"
+            android:text="Bitiş"
+            android:textColor="#474646"
+            android:textSize="16dp"
+            app:icon="@drawable/calendar"
+            app:iconSize="18dp"
+            app:iconTint="#FF5722" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="448dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swHost"
+            android:layout_width="215dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="middle"
+            android:scrollbarSize="4dp"
+            android:text="Host"
+            android:textColor="#474646"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ücret"
+                android:textAllCaps="false"
+                android:textColor="#FF7F00"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPrice"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="₺"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="426dp"
+        android:layout_height="171dp"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <Button
+            android:id="@+id/btnTalep"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:text="Talep Oluştur"
+            android:textAlignment="center"
+            app:cornerRadius="18dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_wave" />
+
+</LinearLayout>

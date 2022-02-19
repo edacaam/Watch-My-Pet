@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:backgroundTint="#388E3C">
+
+    <ImageView
+        android:id="@+id/imgCheck"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/lblReservation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/check" />
+
+    <TextView
+        android:id="@+id/lblReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Rezervasyon İşlemini Onaylıyor Musunuz?"
+        android:textAlignment="center"
+        android:textColor="#806C6C"
+        android:textSize="26dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/btnYes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCheck" />
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#388E3C"
+        android:text="Evet"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnNo"
+        app:layout_constraintTop_toBottomOf="@+id/lblReservation" />
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#D32F2F"
+        android:text="Hayır"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnYes"
+        app:layout_constraintEnd_toStartOf="@+id/btnYes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnYes" />
+</androidx.constraintlayout.widget.ConstraintLayout>
