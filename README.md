@@ -17,6 +17,7 @@ If you are not registered in the system, the system will direct you to the profi
 ### Profile and Badges
 When a new user registers, they are directed to the profile page on the first login to the application and are expected to update their information.
 It is expected that the user will select the badges indicating the qualifications they have and add them to their profile.
+
 <img src="https://user-images.githubusercontent.com/54909611/154796584-026b5a18-a37c-4b81-8053-4616bd50d175.png" width=300>
 
 ### Creating a Request
