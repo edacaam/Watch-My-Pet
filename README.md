@@ -42,3 +42,7 @@ Clicking on the listed host or host caller confirms the reservation process and 
 The user can view the reservations by clicking the My Reservations button in his profile, and confirm the reservation cancellation process by clicking on the reservation and cancel the reservation.
 
 <img src="https://user-images.githubusercontent.com/54909611/154796706-7899d202-a902-4633-bfef-992b21bd18bb.png" width=300>  <img src="https://user-images.githubusercontent.com/54909611/154796709-9126567a-5cb6-445e-b9dc-005ce2098e6f.png" width=300>
+
+### Authors
+- Ahmad Zaidan
+- Eda çam
