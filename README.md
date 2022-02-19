@@ -12,7 +12,7 @@ Thus, host seekers can choose the suitable host for their pet from the host post
 First of all, you can log in by clicking the login or registration buttons on the welcome screen, or you can register if you do not have an account.
 If you are not registered in the system, the system will direct you to the profile page to update your profile information at the first login after the registration process, if you are already registered, you will be directed to the main page after the login process.
 
-<img src="https://user-images.githubusercontent.com/54909611/154796502-b05c630a-4095-46bf-bd26-0d721100866d.png" width=300>  <img src="https://user-images.githubusercontent.com/54909611/154796506-98966db8-1e9a-4b52-a9ab-e6c928d8f7e6.png" width=300>  <img src="https://user-images.githubusercontent.com/54909611/154796510-74779e5b-17e7-40d6-9b76-f2a3b03ef77b.png" width=300>
+<img src="https://user-images.githubusercontent.com/54909611/154796502-b05c630a-4095-46bf-bd26-0d721100866d.png" width=250> <img src="https://user-images.githubusercontent.com/54909611/154796506-98966db8-1e9a-4b52-a9ab-e6c928d8f7e6.png" width=250> <img src="https://user-images.githubusercontent.com/54909611/154796510-74779e5b-17e7-40d6-9b76-f2a3b03ef77b.png" width=250>
 
 ### Profile and Badges
 When a new user registers, they are directed to the profile page on the first login to the application and are expected to update their information.
